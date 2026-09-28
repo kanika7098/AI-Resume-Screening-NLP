@@ -1,0 +1,38 @@
+AI RESUME SCREENING & JOB CATEGORY PREDICTION
+===============================================
+
+1. INTRODUCTION
+This project uses Natural Language Processing and Machine Learning to classify resumes into job categories.
+
+2. OBJECTIVE
+The objective is to automatically analyze resume text and predict the most appropriate job category.
+
+3. DATASET
+The supplied Resume dataset.csv contains resume text and category labels.
+
+4. TECHNOLOGIES
+Python, Pandas, NumPy, Scikit-learn, TF-IDF, Linear SVM, Matplotlib, Seaborn, Joblib and Streamlit.
+
+5. METHODOLOGY
+Data Loading -> EDA -> Text Cleaning -> Train/Test Split -> TF-IDF -> Linear SVM -> Evaluation -> Model Saving -> Streamlit Deployment.
+
+6. PREPROCESSING
+Text is converted to lowercase; URLs, emails, long numeric strings and punctuation are removed; whitespace is normalized.
+
+7. FEATURE EXTRACTION
+TF-IDF with unigrams and bigrams is used to convert resume text into numerical features.
+
+8. MODEL
+Linear Support Vector Machine is trained for multiclass resume classification.
+
+9. EVALUATION
+Accuracy, precision, recall, F1-score and confusion matrix are generated in the notebook.
+
+10. APPLICATION
+The Streamlit interface accepts TXT, PDF and DOCX resumes or pasted text and predicts the top job categories.
+
+11. LIMITATION
+SVM decision scores are ranking scores, not calibrated probabilities. The system should not be used as the sole basis for hiring decisions.
+
+12. FUTURE SCOPE
+Named-entity extraction, skills extraction, experience estimation, education extraction, semantic embeddings, transformer models, calibrated probabilities and recruiter dashboards can be added.

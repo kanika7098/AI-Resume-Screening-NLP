@@ -1,0 +1,18 @@
+Accuracy: 0.8711
+                                                precision    recall  f1-score   support
+
+                 Business Analyst (BA) Resumes       0.95      0.93      0.94       200
+Business Intelligence, Business Object Resumes       0.90      0.95      0.92       200
+     Datawarehousing, ETL, Informatica Resumes       0.92      0.93      0.92       200
+            Java Developers/Architects Resumes       0.74      0.71      0.73       200
+    Network and Systems Administrators Resumes       0.87      0.88      0.87       200
+                       Project Manager Resumes       0.96      0.95      0.96       200
+                             Recruiter Resumes       0.67      0.69      0.68       200
+                        SQL Developers Resumes       0.89      0.91      0.90       200
+                         Web Developer Resumes       0.95      0.89      0.92       200
+
+                                      accuracy                           0.87      1800
+                                     macro avg       0.87      0.87      0.87      1800
+                                  weighted avg       0.87      0.87      0.87      1800
+
+Saved: models/resume_classifier.joblib
